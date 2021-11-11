@@ -12,9 +12,9 @@
 url: https://kellybuchanan.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /collectionbuilder-pdf-sandbox
+baseurl: /JackCoan_collectionbuilder-pdf-sandbox
 # location of code, the full url to your github repository
-source-code: https://github.com/kellybuchanan/collectionbuilder-pdf-sandbox
+source-code: https://github.com/kellybuchanan/JackCoan_collectionbuilder-pdf-sandbox
 
 ##########
 # SITE SETTINGS

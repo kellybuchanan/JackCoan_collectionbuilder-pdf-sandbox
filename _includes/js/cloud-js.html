@@ -1,6 +1,6 @@
-{%- assign cloud-fields = include.fields | split: ";" -%}
+{%- assign cloud-fields = "date" | split: ";" -%}
 
-{% comment %} Capture all cloud terms {% endcomment %} 
+{% comment %} Capture all cloud terms {% endcomment %}
 {%- assign raw-terms = "" -%}
 {%- for c in cloud-fields -%}
 {% assign new = site.data[site.metadata] | map: c | compact | join: ";" %}
@@ -8,7 +8,7 @@
 {%- endfor -%}
 {%- assign raw-terms = raw-terms | downcase | split: ";" -%}
 
-{% comment %} Clean up raw terms {% endcomment %} 
+{% comment %} Clean up raw terms {% endcomment %}
 {%- capture terms -%}{%- for t in raw-terms -%}{%- if t != "" and t != " " -%}{{ t | strip }};{%- endif -%}{%- endfor -%}{%- endcapture -%}
 {%- assign terms = terms | split: ";" | sort -%}
 {%- assign uniqueTerms = terms | uniq | sort -%}

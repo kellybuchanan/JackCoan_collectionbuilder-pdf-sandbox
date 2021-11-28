@@ -17,10 +17,10 @@
 
 {%- endcomment -%}
 
-{%- assign image-items = [1920_review.jpeg, header.jpg, 1943_review.png] -%}
+{%- assign image-items = site.data[site.metadata ] | where_exp: "item","item.format contains 'image'" -%}
 {%- assign youtube-items = site.data[site.metadata ] | where_exp: "item","item.youtubeid" -%}
 {%- assign carousel-items = image-items | concat: youtube-items -%}
-{%- assign carousel-max = include.max | default: 3 -%}
+{%- assign carousel-max = include.max | default: 9 -%}
 {%- assign btn-color = include.btn-color | default: "primary" -%}
 {%- assign btn-text = include.btn-text | default: "View Item" -%}
 

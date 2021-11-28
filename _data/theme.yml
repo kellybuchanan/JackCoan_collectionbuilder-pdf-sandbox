@@ -8,8 +8,8 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: # "header.jpg"
-# optional: add extra padding around collection title for a larger image feature. 
+featured-image: # "1943_review.jpg"
+# optional: add extra padding around collection title for a larger image feature.
 home-title-y-padding: # Default is 8em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: # Default is center
@@ -46,7 +46,7 @@ year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown n
 year-nav-increment: 5 # set increments when auto gen nav years
 
 ##########
-# DATA 
+# DATA
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
@@ -59,7 +59,7 @@ metadata-facets-fields: "date"
 #
 
 # NAVBAR COLORS
-# If you'd like to change the color of the nav-bar and links, adjust the below. 
+# If you'd like to change the color of the nav-bar and links, adjust the below.
 # Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
 navbar-color: navbar-dark
 # navbar background color
@@ -68,7 +68,7 @@ navbar-background: bg-dark
 
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
-# Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
+# Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti
 bootswatch: lux # leave blank or comment out for plain bootstrap
 
 

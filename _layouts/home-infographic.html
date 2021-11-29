@@ -4,26 +4,32 @@ layout: page
 {%- assign items = site.data[site.metadata] -%}
 <div class="col-md-12">
 
-{% include index/carousel.html title="Notre Dame Scholastic Football Reviews" %}
+  {% include index/carousel.html title="Notre Dame Scholastic Football Reviews" %}
 
 
-{% include index/description.html %}
+  {% include index/description.html %}
 </div>
 <div class="container">
-<div class="row">
-<div class="col-sm">
+  <div class="row">
+    <div class="col-sm">
 
-{% include index/time.html %}
-</div>
-<div class="col-sm">
+      {% include index/time.html %}
+    </div>
+    <div class="col-sm">
 
-{% include index/objects.html %}
+      {% include index/objects.html %}
 
-</div>
-<div class="col-sm">
+    </div>
+    <div class="col-sm">
 
-{% include index/data-download.html %}
+      {% include index/data-download.html %}
 
-</div>
-</div>
+    </div>
+
+    <div class="col-sm">
+
+      {% include index/cloud.html %}
+
+    </div>
+  </div>
 </div>
